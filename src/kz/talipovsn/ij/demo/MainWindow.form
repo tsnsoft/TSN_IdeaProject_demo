@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="kz.talipovsn.ij.demo.MainWindow">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="5" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="630" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-3034777"/>
+      <focusCycleRoot value="true"/>
+    </properties>
+    <border type="bevel-raised"/>
+    <children>
+      <component id="79fb9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="x="/>
+        </properties>
+      </component>
+      <component id="b61d0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="b="/>
+        </properties>
+      </component>
+      <component id="d450b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="d="/>
+        </properties>
+      </component>
+      <component id="83a17" class="javax.swing.JTextField" binding="textField_x">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4866095"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="666e3" class="javax.swing.JTextField" binding="textField_b">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4866095"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="afff3" class="javax.swing.JTextField" binding="textField_d">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4866095"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="237d2" class="javax.swing.JButton" binding="Button_Clear">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4866095"/>
+          <text value="Очистить"/>
+        </properties>
+      </component>
+      <component id="742e5" class="javax.swing.JButton" binding="Button_Exit">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4866095"/>
+          <text value="Выход"/>
+        </properties>
+      </component>
+      <component id="7024f" class="javax.swing.JButton" binding="button_Calc">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4866095"/>
+          <text value="Решить"/>
+        </properties>
+      </component>
+      <component id="ee356" class="javax.swing.JLabel" binding="jLabel_y">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4866095"/>
+          <font size="14" style="1"/>
+          <foreground color="-10013943"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f5f0f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="4" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3034777"/>
+          <icon value="kz/talipovsn/ij/demo/variant.jpg"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
