@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TSN_IdeaProject_demo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TSN_IdeaProject_demo_jar</output-path>
+    <root id="archive" name="TSN_IdeaProject_demo.jar">
+      <element id="module-output" name="TSN_IdeaProject_demo" />
+    </root>
+  </artifact>
+</component>
