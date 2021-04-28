@@ -18,6 +18,7 @@ public class MainWindow extends JFrame {
         getContentPane().add(mainPanel);
         setIconImage(Toolkit.getDefaultToolkit().createImage(getClass().getResource("icon.png")));
         setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setResizable(false);
         setTitle("Решатель задачи");
         pack();
         setLocationRelativeTo(null);
