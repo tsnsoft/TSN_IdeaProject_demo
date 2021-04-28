@@ -19,7 +19,7 @@ public class MainWindow extends JFrame {
         // Инициализация компонент
         getContentPane().add(mainPanel);
         setIconImage(Toolkit.getDefaultToolkit().createImage(getClass().getResource("icon.png")));
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
         setResizable(false);
         setTitle("Решатель задачи");
         pack();
@@ -60,16 +60,29 @@ public class MainWindow extends JFrame {
         });
 
         // Выход из программы
-        Button_Exit.addActionListener(actionEvent -> System.exit(0));
+        Button_Exit.addActionListener(actionEvent -> dispose());
 
         // Переопределение методов окна
         addWindowListener(new WindowAdapter() {
-            // Закрытие окна
+            // Закрытие окна "по крестику"
             @Override
             public void windowClosing(WindowEvent evt) {
+                windowClose();
+            }
+
+            // Закрытие окна после команды окна "dispose()"
+            @Override
+            public void windowClosed(WindowEvent evt) {
+                windowClose();
+            }
+
+            // Наш метод закрытия окна
+            private void windowClose() {
                 JOptionPane.showMessageDialog(rootPane, "До свидания!",
                     "Выход", JOptionPane.INFORMATION_MESSAGE);
+                System.exit(0);
             }
+
         });
 
     }
