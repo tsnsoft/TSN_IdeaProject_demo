@@ -62,7 +62,6 @@ public class MainWindow extends JFrame {
         // Выход из программы
         Button_Exit.addActionListener(actionEvent -> System.exit(0));
 
-
         // Переопределение методов окна
         addWindowListener(new WindowAdapter() {
             // Закрытие окна
