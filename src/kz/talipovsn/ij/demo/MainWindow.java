@@ -2,6 +2,8 @@ package kz.talipovsn.ij.demo;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 public class MainWindow extends JFrame {
     private JButton button_Calc;
@@ -59,6 +61,17 @@ public class MainWindow extends JFrame {
 
         // Выход из программы
         Button_Exit.addActionListener(actionEvent -> System.exit(0));
-    }
 
+
+        // Переопределение методов окна
+        addWindowListener(new WindowAdapter() {
+            // Закрытие окна
+            @Override
+            public void windowClosing(WindowEvent evt) {
+                JOptionPane.showMessageDialog(rootPane, "До свидания!",
+                    "Выход", JOptionPane.INFORMATION_MESSAGE);
+            }
+        });
+
+    }
 }
