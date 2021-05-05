@@ -86,4 +86,11 @@ public class MainWindow extends JFrame {
         });
 
     }
+
+    // Запуск программы на выполнение
+    public static void main(String[] args) {
+        // Создание и открытие окна
+        SwingUtilities.invokeLater(() -> new MainWindow().setVisible(true));
+    }
+
 }

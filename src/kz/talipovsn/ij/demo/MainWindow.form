@@ -29,15 +29,6 @@
           <text value="b="/>
         </properties>
       </component>
-      <component id="d450b" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="2" column="0" row-span="3" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <foreground color="-16777216"/>
-          <text value="d="/>
-        </properties>
-      </component>
       <component id="83a17" class="javax.swing.JTextField" binding="textField_x">
         <constraints>
           <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
@@ -53,18 +44,6 @@
       <component id="666e3" class="javax.swing.JTextField" binding="textField_b">
         <constraints>
           <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
-          </grid>
-        </constraints>
-        <properties>
-          <background color="-4866095"/>
-          <font size="12" style="1"/>
-          <foreground color="-16777216"/>
-        </properties>
-      </component>
-      <component id="afff3" class="javax.swing.JTextField" binding="textField_d">
-        <constraints>
-          <grid row="2" column="3" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
@@ -114,12 +93,33 @@
       </component>
       <component id="f5f0f" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="4" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="4" row-span="5" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-3034777"/>
           <icon value="kz/talipovsn/ij/demo/variant.jpg"/>
           <text value=""/>
+        </properties>
+      </component>
+      <component id="d450b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="3" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="d="/>
+        </properties>
+      </component>
+      <component id="afff3" class="javax.swing.JTextField" binding="textField_d">
+        <constraints>
+          <grid row="2" column="3" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4866095"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
         </properties>
       </component>
     </children>
